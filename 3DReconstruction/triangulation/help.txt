@@ -1,0 +1,14 @@
+1.Get point cloud without background and RGB, use 
+singlFaceColor.m generate triangulation.
+
+2.Get point cloud with background and RGB, use
+extractfromBG.m to get point cloud
+
+3.Get point cloud without background, but with RGB,
+use TriangleRGBwithDepth.m to get triangulation
+
+4.Get point cloud without background, but with GDB,
+TriangleRGBwithDepthCrust.m to get MyCrust Triangulation
+
+5.Get 3D point set with (X,Y,Z), use myRobustcrust.m to 
+get triangulation with MyCrust method.
